@@ -7,6 +7,12 @@ import { Component, OnInit } from '@angular/core';
 })
 export class TitleComponent implements OnInit {
 
+  pagets={
+    title: 'A Practicle Guide to',
+    subtitle: 'HTML & CSS',
+    content: 'Some home content.'
+  }
+
   constructor() { }
 
   ngOnInit(): void {

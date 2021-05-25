@@ -7,6 +7,12 @@ import { Component, OnInit } from '@angular/core';
 })
 export class SidebarComponent implements OnInit {
 
+  sidebar={                                         //create object
+    title: 'Home',
+    subtitle: 'Welcome Home!',
+    content: 'Some home content.'
+  }
+
   constructor() { }
 
   ngOnInit(): void {
