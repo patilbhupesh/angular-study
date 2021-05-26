@@ -5,3 +5,22 @@
 #subtitlecol{
     color: white;
 }
+
+#contentpage{
+    color: #7c7c84;
+}
+
+#subcontentpage{
+    color: white;
+    font-family: monospace;
+}
+
+#partpage{
+    color: #7c7c84;
+}
+
+#subpartpage{
+    color: white;
+    font-family: monospace;
+   
+}
