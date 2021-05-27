@@ -1,1 +1,10 @@
-<p>subtitle works!</p>
+<p>{{subtitlets.titleone}}</p>
+<p><span id="textchnage">A Beginners Guide to HTML & CSS </span>{{subtitlets.content}}</p>
+
+<ol class="numbered-list" type="1">
+    <li *ngFor="let book of books;let indexOfelement=index;">
+       {{book.name}} 
+    </li>
+</ol>
+
+<button class="mx-3 rounded" id="btn">{{subtitlets.contentbutton}}</button>
