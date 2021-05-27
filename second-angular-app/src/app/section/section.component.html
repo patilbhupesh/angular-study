@@ -1,2 +1,11 @@
-<p>{{sectionts.titletwo}}</p>
+<p class="h5" id="titlesection">{{sectionts.titletwo}}</p>
+<p id="sentencesection"><span class="" id="seccontent">An Advanced Guide to HTML & CSS </span>{{sectionts.Content}}</p>
+<ol id="listsection"class="numbered-list" type="1">
+    <li *ngFor="let book of books;let indexOfelement=index;">
+       {{book.name}} 
+    </li>
+</ol>
+
+
+<button class="mx-3 rounded" id="btn">{{sectionts.contentbutton}}</button>
 

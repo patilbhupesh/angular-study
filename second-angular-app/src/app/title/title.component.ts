@@ -18,9 +18,9 @@ export class TitleComponent implements OnInit {
   pagets={
     title: 'A Practicle Guide to',
     subtitle: 'HTML & CSS',
-    content: 'Course 101',
+    content: 'COURSE 101',
     subcontent:'A Beginner Guide to HTML & CSS',
-    part:'Course 201',
+    part:'COURSE 201',
     subpart:'An Advance Guide to HTML & CSS'
   }
 

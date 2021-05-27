@@ -1,6 +1,6 @@
 import { Content } from '@angular/compiler/src/render3/r3_ast';
 import { Component, OnInit } from '@angular/core';
-export class Book{
+export class List{
 
   name: string;    
      constructor(name:string)    
@@ -19,23 +19,24 @@ export class SectionComponent implements OnInit {
 
   sectionts={
     titletwo:'An Advanced Guide to HTML & CSS',
-    Content:'An Advanced Guide to HTML & CSS'
+    Content:'takes a deeper look at front-end design & development, teaching the latest for any design',
+    contentbutton:'AN ADVANCE GUIDE TO HTML & CSS'
   }
 
-  books : Book[];
+  books : List[];
 
   constructor() {
     this.books = [
-      {name:"Terminology, Syntax, &Introduction"},
-      {name:"Elements & Symantics"},
-      {name:"Box Model & Positioning"},
-      {name:"Typography"},
-      {name:"Background & Gradients"},
-      {name:"Unordered, Ordered & Definition Lists"},
-      {name:"Images,Audio & video"},
-      {name:"Building Forms"},
-      {name:"Organizing Data with Tables"},
-      {name:"Coding Practices & Additional Resources"}
+      {name:"Performance & Organization"},
+      {name:"Detailted Positioning"},
+      {name:"Complex Selectors"},
+      {name:"Response Web Design"},
+      {name:"Preprocessors"},
+      {name:"jQuery"},
+      {name:"Transforms"},
+      {name:"Transitions & Animations"},
+      {name:"Feature Support & Polyfills"},
+      {name:"Extending Semantics & Accessibility"}
    ];
 
    }
