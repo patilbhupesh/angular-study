@@ -11,6 +11,12 @@ import {MatDatepickerModule} from '@angular/material/datepicker';
 import {MatNativeDateModule} from '@angular/material/core';
 import { MatFormFieldModule } from '@angular/material/form-field';
 import { MatInputModule } from '@angular/material/input';
+import { MatSidenavModule } from '@angular/material/sidenav';
+import { MatDividerModule } from '@angular/material/divider';
+import {MatListModule} from '@angular/material/list';
+import {MatGridListModule} from '@angular/material/grid-list';
+import { MatIconModule } from '@angular/material/icon';
+import {MatMenuModule} from '@angular/material/menu';
 
 
 
@@ -23,6 +29,13 @@ import { CardComponent } from './card/card.component';
 import { CheckboxComponent } from './checkbox/checkbox.component';
 import { ChipsComponent } from './chips/chips.component';
 import { DatepickerComponent } from './datepicker/datepicker.component';
+import { DialogComponent } from './dialog/dialog.component';
+import { DividerComponent } from './divider/divider.component';
+import { FormfieldComponent } from './formfield/formfield.component';
+import { GridlistComponent } from './gridlist/gridlist.component';
+import { IconComponent } from './icon/icon.component';
+import { InputComponent } from './input/input.component';
+import { MenuComponent } from './menu/menu.component';
 
 @NgModule({
   declarations: [
@@ -33,6 +46,14 @@ import { DatepickerComponent } from './datepicker/datepicker.component';
     CheckboxComponent,
     ChipsComponent,
     DatepickerComponent,
+    DialogComponent,
+    DividerComponent,
+    FormfieldComponent,
+    GridlistComponent,
+    IconComponent,
+    InputComponent,
+    MenuComponent,
+   
   
   ],
   imports: [
@@ -50,7 +71,13 @@ import { DatepickerComponent } from './datepicker/datepicker.component';
     MatNativeDateModule ,
     MatDatepickerModule,
     MatFormFieldModule,
-    MatInputModule
+    MatInputModule,
+    MatSidenavModule,
+    MatDividerModule,
+    MatListModule,
+    MatGridListModule,
+    MatIconModule,
+    MatMenuModule
   
   ],
   providers: [],
